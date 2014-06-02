@@ -1,0 +1,29 @@
+{
+  "name": "is-http",
+  "version": "0.0.2",
+  "description": "returns whether or not a url speaks http(s)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostsnstuff/is-http.git"
+  },
+  "keywords": [
+    "is",
+    "http"
+  ],
+  "author": "jared <jaredhalpert90@gmail.com> (http://jaredhalpert.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostsnstuff/is-http/issues"
+  },
+  "homepage": "https://github.com/ghostsnstuff/is-http",
+  "dependencies": {
+    "tape":"*"
+  }
+}
