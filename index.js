@@ -1,8 +1,8 @@
 'use strict'
 
+var urlParse = require('url').parse
+
 module.exports = function(url) {
-  var protocol = require('url').parse(url).protocol
-  if(protocol === 'http:') return true
-  if(protocol === 'https:') return true
-  return false
+  var protocol = urlParse(url).protocol
+  return protocol === 'http:' || protocol === 'https:'
 }
