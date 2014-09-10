@@ -23,7 +23,7 @@
     "url": "https://github.com/ghostsnstuff/is-http/issues"
   },
   "homepage": "https://github.com/ghostsnstuff/is-http",
-  "dependencies": {
-    "tape":"*"
+  "devDependencies": {
+    "tape": "*"
   }
 }
